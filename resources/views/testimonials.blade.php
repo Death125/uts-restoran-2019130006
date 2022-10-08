@@ -3,5 +3,8 @@
 
 @section('title', 'Testimonials')
 
+@section('carousel')
+@endsection
+
 @section('content')
 @endsection
