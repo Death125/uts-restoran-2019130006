@@ -23,3 +23,10 @@ use App\Http\Controllers\AboutController;
 // });
 
 Route::get('/', [\App\Http\Controllers\HomeController::class, 'home'])->name('home');
+Route::get('/products', [\App\Http\Controllers\ProductsController::class, 'products'])->name('products');
+Route::get('/testimonials', [\App\Http\Controllers\testimonialsController::class, 'testimonials'])->name('testimonials');
+Route::get('/about', [\App\Http\Controllers\AboutController::class, 'about'])->name('about');
+
+Route::fallback(function () {
+    return '<h1>Wrong Way</h1>';
+});
