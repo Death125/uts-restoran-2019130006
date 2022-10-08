@@ -1,0 +1,8 @@
+body {
+    background-color: rgba(217, 218, 181, 0.685);
+}
+
+.font-lucida {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
