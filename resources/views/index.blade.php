@@ -22,9 +22,9 @@
     </div>
 
     <div class="container align-items-center justify-content-center mb-4">
-        <div class="row w-100 p-0 mx-auto " style="width: 100%;">
-            <div class="col-lg-4 col-md-3 col-sm-12 col-xs-12 mb-3">
-                <div class="card" style="width: 18rem;">
+        <div class="row w-100 p-0 mx-auto justify-content-center" style="width: 100%;">
+            <div class=" col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-3 d-flex align-items-stretch">
+                <div class="card">
                     <img class="card-img-top" src="{{ asset('assets/images/frontrestaurant.jpg') }}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Welcome to King's Restaurant</h5>
@@ -34,8 +34,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-3 col-sm-12 col-xs-12 mb-3">
-                <div class="card" style="width: 18rem;">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-3 d-flex align-items-stretch">
+                <div class="card">
                     <img class="card-img-top" src="{{ asset('assets/images/testimonials.png') }}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Testimony</h5>
@@ -46,8 +46,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-3 col-sm-12 col-xs-12 mb-3">
-                <div class="card" style="width: 18rem;">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-3 d-flex align-items-stretch">
+                <div class="card">
                     <img class="card-img-top" src="{{ asset('assets/images/menu.jpg') }}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Our Menu</h5>
