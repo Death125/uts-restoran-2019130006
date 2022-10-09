@@ -28,5 +28,5 @@ Route::get('/testimonials', [\App\Http\Controllers\testimonialsController::class
 Route::get('/about', [\App\Http\Controllers\AboutController::class, 'about'])->name('about');
 
 Route::fallback(function () {
-    return '<h1>Wrong Way</h1>';
+    return '<h1>Wrong URL</h1>';
 });

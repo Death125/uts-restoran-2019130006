@@ -35,4 +35,24 @@
             @endforelse
         </div>
     </div>
+
+    <div class="container">
+        <div class="card bg-light mb-3">
+            <div class="card-header">
+                Menu Page
+            </div>
+            <div class="card-body text-left">
+                Page :
+                @for ($i = 1; $i < 20; $i++)
+                    <a href="#">
+                        <button type="button" class="btn btn-dark">
+                            {{ $i }}
+                        </button>
+                    </a>
+                @endfor
+            </div>
+        </div>
+    </div>
+
+
 @endsection
