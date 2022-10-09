@@ -29,7 +29,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Welcome to King's Restaurant</h5>
                         <p class="card-text text-justify">Our restaurant opened in 2018, it's been 5 years since our
-                            restaurant was founded, from a small restaurant to growing to this big ...</p>
+                            restaurant was founded, from a small restaurant to growing to this big . . .</p>
                         <a href="{{ route('about') }}" class="btn btn-primary">Learn More</a>
                     </div>
                 </div>

@@ -12,3 +12,9 @@ body {
     height: 30vh;
     object-fit: cover;
 }
+
+.font-franklin {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+}
