@@ -18,7 +18,7 @@
             <div class="col-12 mb-3">
                 <div class="card flex-row flex-wrap">
                     <div class="card-header border-0">
-                        <img src="{{ asset('assets/images/AyamGoreng.png') }}" height="100" width="100%" alt="">
+                        <img src="{{ asset('assets/images/Rudi.png') }}" height="100" width="100%" alt="">
                     </div>
                     <div class="card-block px-2 my-4">
                         <h4 class="card-title">Rudi</h4>
@@ -65,7 +65,7 @@
             <div class="col-12 mb-3">
                 <div class="card flex-row flex-wrap">
                     <div class="card-header border-0">
-                        <img src="{{ asset('assets/images/AyamGoreng.png') }}" height="100" width="100%" alt="">
+                        <img src="{{ asset('assets/images/Eliz.png') }}" height="100" width="100%" alt="">
                     </div>
                     <div class="card-block px-2 my-4">
                         <h4 class="card-title">Eliz</h4>
@@ -88,7 +88,7 @@
             <div class="col-12 mb-3">
                 <div class="card flex-row flex-wrap">
                     <div class="card-header border-0">
-                        <img src="{{ asset('assets/images/AyamGoreng.png') }}" height="100" width="100%" alt="">
+                        <img src="{{ asset('assets/images/Gary.png') }}" height="100" width="100%" alt="">
                     </div>
                     <div class="card-block px-2 my-4">
                         <h4 class="card-title">Gary</h4>
@@ -111,10 +111,10 @@
             <div class="col-12 mb-3">
                 <div class="card flex-row flex-wrap">
                     <div class="card-header border-0">
-                        <img src="{{ asset('assets/images/AyamGoreng.png') }}" height="100" width="100%" alt="">
+                        <img src="{{ asset('assets/images/Eric.png') }}" height="100" width="100%" alt="">
                     </div>
                     <div class="card-block px-2 my-4">
-                        <h4 class="card-title">Rudi</h4>
+                        <h4 class="card-title">Eric</h4>
                         <p class="card-text">Can add a new menu, namely fried duck &#128517;</p>
                     </div>
                     <div class="w-100"></div>
@@ -134,7 +134,7 @@
             <div class="col-12 mb-3">
                 <div class="card flex-row flex-wrap">
                     <div class="card-header border-0">
-                        <img src="{{ asset('assets/images/AyamGoreng.png') }}" height="100" width="100%" alt="">
+                        <img src="{{ asset('assets/images/Miya.png') }}" height="100" width="100%" alt="">
                     </div>
                     <div class="card-block px-2 my-4">
                         <h4 class="card-title">Miya</h4>
