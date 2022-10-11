@@ -160,8 +160,17 @@
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
             © 2022 Copyright:
             <a class="text-white" href="#">Viki Fernando</a>
+
+            <div class="row m-0 p-0">
+                <div class="col">
+                    <a href="{{ url('/') }}">Home</a>
+                </div>
+            </div>
         </div>
     </footer>
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="{{ asset('assets/js/app.js') }}"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
