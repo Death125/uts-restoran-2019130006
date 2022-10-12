@@ -3,9 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductsController;
-use App\Http\Controllers\testimonialsController;
-use App\Http\Controllers\AboutController;
-
 
 /*
 |--------------------------------------------------------------------------

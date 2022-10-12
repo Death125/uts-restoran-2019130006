@@ -63,7 +63,7 @@
     </div>
 
     <div class="container1">
-        <img class="jbg-color" src="{{ asset('assets/images/jbg.png') }}" height="300" width="100%" alt="Snow"
+        <img class="jbg-color" src="{{ asset('assets/images/jbg.png') }}" height="300" width="100%" alt="rigged"
             style="width:100%;">
 
         <div class="row">

@@ -31,6 +31,10 @@ body {
     text-indent: 30px;
 }
 
+.font-georgia {
+    font-family: sans-serif;
+}
+
 /* Centered text */
 .centered {
     position: absolute;

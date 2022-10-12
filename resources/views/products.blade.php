@@ -20,9 +20,10 @@
                     <div class="card">
                         <img class="card-img-top" src="{{ asset($menuDescription['url']) }}" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">{{ $menuDescription['menuName'] }}</h5>
-                            <p class="card-text">Price : {{ $menuDescription['price'] }}</p>
-                            <p class="card-text">Category : {{ $menuDescription['category'] }}</p>
+                            <h5 class="card-title"><b>{{ $menuDescription['menuName'] }}</b></h5>
+                            <p class="card-text font-georgia">Price : <span
+                                    class="price">{{ $menuDescription['price'] }}</span></p>
+                            <p class="card-text font-georgia">Category : {{ $menuDescription['category'] }}</p>
                             <a href="#" class="btn btn-primary">Order</a>
 
                             <p class="card-text"><small class="text-muted">Last updated 20 mins ago</small>
@@ -64,4 +65,14 @@
         </nav>
     </div>
 
+    <script>
+        const formatter = new Intl.NumberFormat('en-US', {
+            style: 'currency',
+            currency: 'IDR'
+        });
+        const elements = document.querySelectorAll('.price');
+        [...elements].forEach((element) => {
+            element.innerHTML = formatter.format(element.innerHTML);
+        });
+    </script>
 @endsection
