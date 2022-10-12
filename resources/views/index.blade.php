@@ -61,4 +61,18 @@
             </div>
         </div>
     </div>
+
+    <div class="container1">
+        <img class="jbg-color" src="{{ asset('assets/images/jbg.png') }}" height="300" width="100%" alt="Snow"
+            style="width:100%;">
+
+        <div class="row">
+            <div class="centered font-lucida">
+                <p><b>OPENING TIMES</b></p>
+                <p>Monday - Friday : 09:00 - 23:00</p>
+                <p>Saturday : 10:00 - 22:00</p>
+                <p>Sunday : 12:00 - 21:00</p>
+            </div>
+        </div>
+    </div>
 @endsection
