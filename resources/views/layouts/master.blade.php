@@ -38,9 +38,6 @@
                             Us</a>
                     </li>
                 </ul>
-                {{-- <span class="navbar-text">
-                    Navbar text with an inline element
-                </span> --}}
             </div>
         </nav>
 
